@@ -1,0 +1,55 @@
+{
+  "name": "vuetable2-column-visibility",
+  "version": "1.0.0",
+  "description": "Component that controls visibility of vuetable2's columns",
+  "main": "./dist/vuetable2-column-visibility.js",
+  "dependencies": {
+    "vue-events": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-lodash": "^2.0.1",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-runtime": "^5.8.38",
+    "cross-env": "^3.1.2",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.13.1",
+    "vue-hot-reload-api": "^2.0.6",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^9.x",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --quiet --config build/webpack.config.js",
+    "build": "webpack --progress --hide-modules --config build/webpack.config.js",
+    "clear": "rm dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieloliverio/vuetable2-column-visibility"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "vuetable2",
+    "grid-extension",
+    "vue-component",
+    "component"
+  ],
+  "author": "Gabriel Olivério <gabrieloliverio.py@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrieloliverio/vuetable2-column-visibility/issues"
+  },
+  "homepage": "https://github.com/gabrieloliverio/vuetable2-column-visibility#readme"
+}
