@@ -63,7 +63,7 @@ fields: [
 
 Notice in this example that you can define a `showOnVisibilityMenu` property
 in the column object to control whether the column will appear in the
-visibility menu or not.
+visibility menu or not. By default, `showOnVisibilityMenu` is set to `true`.
 
 # License
 
