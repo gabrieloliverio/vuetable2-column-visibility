@@ -1,6 +1,6 @@
 {
   "name": "vuetable2-column-visibility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component that controls visibility of vuetable2's columns",
   "main": "./dist/vuetable2-column-visibility.js",
   "dependencies": {
